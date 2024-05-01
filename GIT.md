@@ -13,7 +13,7 @@ Marco de colores para los comando
 	git config --global color.ui true
 ```
 ## elimina error LF
-    git config core.autocrlf true ()
+    git config core.autocrlf true 
 ## alias status
 git config --global alias.s status --short
 ## alias  log
