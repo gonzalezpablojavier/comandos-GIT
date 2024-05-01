@@ -18,6 +18,8 @@ Marco de colores para los comando
 git config --global alias.s status --short
 ## alias  log
 git config --global alias.lg "log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
+## Detectar conflictos
+git config --global pull.rebase true
 
 ## Iniciando repositorio
 
@@ -280,3 +282,21 @@ Merge con master de un fork
 	git fetch upstream
 	git merge upstream/master
 ```
+
+## Stash
+
+Guardo trabajo actual
+```
+	git stash
+```
+lista trabajo actual
+```
+	git stash list
+```
+
+traigo los ultimos cambios
+```
+	git stash pop
+	
+```
+
