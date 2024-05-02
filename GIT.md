@@ -209,6 +209,16 @@ Crea un nuevo tags
 ```ssh
 	git tag -a <verison> - m "esta es la versión x"
 ```
+Elimino el tag
+```ssh
+	git tag -d super-release
+```
+Edito el tag
+```ssh
+	git tag -a v1.0.0 -m "version 1.0.0 lista"
+```
+
+
 ## GIT REBASE
 
 Los rebase se usan cuando trabajamos con branches esto hace que los branches se pongan al día con el master sin afectar al mismo
