@@ -217,7 +217,11 @@ Edito el tag
 ```ssh
 	git tag -a v1.0.0 -m "version 1.0.0 lista"
 ```
-
+## GIT FETCH
+muestra cambios pendientes en github
+```ssh
+	git fetch
+```
 
 ## GIT REBASE
 
