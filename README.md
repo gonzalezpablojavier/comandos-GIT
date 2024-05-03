@@ -1,4 +1,5 @@
-## Uso del los comandos
+# Uso del los comandos
+## Uso de ramas
 
 git branch rama-villanos (crea una rama)-
 
